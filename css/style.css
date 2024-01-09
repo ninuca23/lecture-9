@@ -1,0 +1,53 @@
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+.head {
+  display: flex;
+  gap: 676px;
+  height: 42px;
+  margin-left: 99px;
+  margin-top: 24px;
+}
+
+.navigation {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.navigation,
+a {
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  color: #636060;
+}
+
+/* section1 */
+.main {
+  margin-top: 18px;
+  gap: 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 606px;
+  background-image: url(/images/Rectangle\ 1.png);
+}
+
+.flex1 {
+  font-family: Helvetica;
+  font-size: 79px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.flex2 {
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  color: #ffffff;
+}
