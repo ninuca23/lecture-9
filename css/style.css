@@ -51,3 +51,72 @@ a {
   font-weight: 400;
   color: #ffffff;
 }
+
+/* section cards */
+
+.services {
+  display: flex;
+  gap: 33px;
+  flex-wrap: wrap;
+  margin-bottom: 400px;
+}
+
+.service {
+  display: flex;
+  flex-direction: column;
+  width: 235px;
+  height: 115px;
+  margin: 84px 83px 0px 100px;
+}
+
+.service h4 {
+  font-family: Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  color: #636060;
+}
+
+.service h1 {
+  font-family: Helvetica;
+  font-size: 28px;
+  font-weight: 400;
+  color: #010101;
+  margin-top: 9px;
+}
+
+.service p {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  color: #636060;
+  margin-top: 37px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 286px;
+  height: 195px;
+  margin-top: 84px;
+}
+
+.card h1 {
+  margin-top: 23px;
+  font-family: Helvetica;
+  font-size: 19px;
+  font-weight: 400;
+  color: #343232;
+}
+
+.card p {
+  margin-top: 9px;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: 400;
+  color: #636060;
+}
+
+.card2 {
+  display: flex;
+  margin: 56px 0 0 450px;
+  gap: 33px;
+}
